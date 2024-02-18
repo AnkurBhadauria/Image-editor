@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor</title>
+</head>
+<!-- Import CSS -->
+<link rel="stylesheet" href="./CSS/style.css">
+
+<body>
+    <div class="selectfile" onclick="selectImage()">
+        <input type="file" id="foto-file" hidden>
+        <label for="foto-file" id="upload">Select An Image</label>
+    </div>
+    <div class="editor">
+        <table class="btn">
+            <tr>
+                <td><button class="buttons" onclick="makeGrayScale()">GrayScale</button></td>
+                <td><button class="buttons" onclick="makeBright()">Brighter</button></td>
+                <td><button class="buttons" onclick="makeDark()">Darker</button></td>
+                <!-- <td><button class="buttons" onclick="makeGrayScale()">GrayScale</button></td> -->
+            </tr>
+            
+            <tr>
+                <td><button class="buttons2" onclick="makeBlur()">Blur</button></td>
+                <td><button class="buttons2" onclick="makeEmboss()">Emboss</button></td>
+                <td><button class="buttons2" onclick="makeSharp()">Sharper</button></td>
+                <!-- <td><button class="buttons2" onclick="makeGrayScale()">GrayScale</button></td> -->
+            </tr>
+            
+            <tr>
+                <td colspan="3">
+                    <button class="download" onclick="download()">Download</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="display">
+        <img id="foto-image"/>
+    </div>
+    <!-- Import JS -->
+    <script src="./JS/index.js"></script>
+    <script src="https://rawcdn.githack.com/kousik19/foto.js/d604b02c69b6f037875bc4a3050b85d776dc4659/foto.js"></script>
+</body>
+
+</html>
