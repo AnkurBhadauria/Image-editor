@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+.selectfile{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    height: 10vh;
+}
+#upload{
+    cursor: pointer;
+    background-color: #bb2020;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0.4rem;
+    border: 0;
+}
+#upload:hover{
+    background-color: #9c0000;
+}
+.display{
+    max-height: 50%;
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 1px auto;
+}
+.btn{
+    text-align: center;
+    width: 50vh;
+    margin: 1px auto;
+    height: 30vh;;
+}
+.buttons, .buttons2, .download{
+    cursor: pointer;
+    background-color: #005ca7;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0.3rem;
+    margin: 1px 5px;
+    width: 100px;
+}
+.buttons:hover{
+    background-color: rgb(8, 36, 116);
+}
+.buttons2{
+    background-color: #009600;
+}
+.buttons2:hover{
+    background-color: rgb(2, 56, 23);
+}
+.download{
+    background-color: #7415a0;
+    width: 300px;
+}
+.download:hover{
+    background-color: #480069;
+}
