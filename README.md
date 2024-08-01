@@ -3,7 +3,7 @@
 ## :bulb: Introduction :
 
 ### It is a simple web application to add effects, filters and edit an image.
-### You can find the application **[here](https://dhanrajchaurasia.github.io/Image-Editor-Project/).**
+### You can find the application **[here]([https://dhanrajchaurasia.github.io/Image-Editor-Project/](https://66ab3f0209bfa29f73094bfb--imageffect.netlify.app/)).**
 
 
 ## :star2: Features : 
